@@ -233,7 +233,7 @@ setZoomable = (boolean, boolean) => {}
   * 设置画布平移
   * @param {true|false} boolean  - 是否支持画布平移
   */
-setmovable = (boolean) => {}
+setMovable = (boolean) => {}
 
 /**
   * 手动设置画布偏移

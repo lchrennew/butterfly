@@ -242,7 +242,7 @@ setZoomable = (boolean) => {}
   * set canvas movable
   * @param {true|false} boolean
   */
-setmovable = (boolean) => {}
+setMovable = (boolean) => {}
 
 /**
   * set canvas offset

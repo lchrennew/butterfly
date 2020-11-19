@@ -1155,7 +1155,7 @@ class BaseCanvas extends Canvas {
     }
   }
 
-  setmovable(flat) {
+  setMovable(flat) {
     if (flat) {
       this.movable = true;
       if (this._dragType === 'canvas:drag') {
@@ -1497,12 +1497,12 @@ class BaseCanvas extends Canvas {
       this._remarkMove = this.movable;
       this._remarkZoom = this.zoomable;
       this.setZoomable(false);
-      this.setmovable(false);
+      this.setMovable(false);
     } else {
       this.isSelectMode = false;
       this.canvasWrapper.unActive();
       if (this._remarkMove) {
-        this.setmovable(true);
+        this.setMovable(true);
       }
       if (this._remarkZoom) {
         this.setZoomable(true);
@@ -1847,7 +1847,7 @@ class BaseCanvas extends Canvas {
       this.setZoomable(true);
     }
     if (this.movable) {
-      this.setmovable(true);
+      this.setMovable(true);
     }
 
     let _isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);

@@ -78,7 +78,7 @@ class Canvas extends EventEmit3 {
   // 获取偏移值
   getOffset() {}
   // 动态设置可移动
-  setmovable() {}
+  setMovable() {}
   // 动态设置移动
   move() {}
 
